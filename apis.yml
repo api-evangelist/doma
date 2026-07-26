@@ -1,8 +1,12 @@
 aid: doma
 name: Doma
-description: Doma is a company surfaced as a portfolio company of bloomberg-beta, fifth-wall, uncork-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Doma is a technology company transforming the mortgage closing process with an AI-first
+  platform for title insurance, title and closing services, and title alternatives. Doma's technology
+  aims to dramatically reduce the cost, time, and complexity of one of life's most confusing and expensive
+  experiences—the mortgage process—serving lenders, mortgage brokers, real estate technology platforms,
+  and homeowners. Doma is backed by Bloomberg Beta, Fifth Wall, and Uncork Capital. This profile was added
+  to the API Evangelist network as a portfolio-company lead; no public developer program, API
+  documentation, or machine-readable API surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/doma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +16,30 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.doma.com/wp-content/themes/doma-theme/dist/images/doma-m.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Title Insurance
+- Mortgage
+- Real Estate Technology
+- Proptech
+- Fintech
+- Closing
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/doma-domain-security.yml
 - type: Website
   url: https://www.doma.com/
+- type: TermsOfService
+  url: https://www.doma.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.doma.com/privacy-policy/
+- type: Support
+  url: https://www.doma.com/tech/contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
